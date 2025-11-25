@@ -1,0 +1,12 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run install:backend && npm run install:frontend && npm run build:backend && npm run build:frontend",
+    "start": "npm --prefix backend start"
+  }
+}

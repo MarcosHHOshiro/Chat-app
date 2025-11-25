@@ -8,8 +8,8 @@
     "build": "tsc",
     "start": "node dist/server.js"
   },
-  "type": "module",
   "keywords": [],
+  "type": "commonjs",
   "author": "",
   "license": "ISC",
   "devDependencies": {
